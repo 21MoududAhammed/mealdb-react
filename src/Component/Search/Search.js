@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+
 import './Search.css'
 
-const Search = () => {
+const Search = ({getData,handleClick,character}) => {
     return (
         <div className='search-field'>
-            <input type="text"  placeholder='Search by name---' />
-            <button>Click Here</button>
+            <input type="text" value={character} onChange={getData} placeholder='Search by name---' />
+            <button onClick={handleClick}>Click Here</button>
         </div>
     );
 };

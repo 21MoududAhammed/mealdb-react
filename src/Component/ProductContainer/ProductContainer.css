@@ -4,7 +4,7 @@
 }
 .products-display{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     grid-gap: 10px;
     background-color: rgb(207, 252, 252);
     padding-top: 10px;
